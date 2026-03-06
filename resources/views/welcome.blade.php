@@ -104,7 +104,7 @@
               </div>
             </div>
             <div class="">
-              <img id="mobile-logo" src="./logo.svg" alt="logo" />
+              <img id="mobile-logo" src="./images/logo.svg" alt="logo" />
             </div>
 
             <div class="info-block">
