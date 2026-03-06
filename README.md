@@ -1,59 +1,86 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Panarcadian Union Website (Concept Project)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This project is a responsive website developed for a fictional organization called **Panarcadian Union**.
+It was created as a concept project to practice modern frontend layout development and to experiment with backend functionality using Laravel.
 
-## About Laravel
+## Project Overview
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The website presents a simple organizational landing page with responsive design and a functional contact form.
+The backend was implemented with Laravel in order to explore form handling, server-side validation, database interaction, and email notification workflows.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The organization used in this project is fictional and created for demonstration purposes only.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Screenshots
 
-## Learning Laravel
+### Homepage
+<img width="1896" height="765" alt="image" src="https://github.com/user-attachments/assets/d4e823f0-e0a7-41a5-93d5-d52cbe02851e" />
+<img width="489" height="509" alt="image" src="https://github.com/user-attachments/assets/d5e97b8a-b255-4bcd-a7a3-757f325958e5" />
+<img width="466" height="862" alt="image" src="https://github.com/user-attachments/assets/6156f163-85ff-4fd1-b4c7-15bfa62fab5a" />
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Main
+<img width="1903" height="785" alt="image" src="https://github.com/user-attachments/assets/480b56b4-4e25-48eb-804a-2714f17462d7" />
+<img width="1909" height="648" alt="image" src="https://github.com/user-attachments/assets/de839787-d505-4c58-b492-0c2aa47cb5ba" />
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## footer-contact
+<img width="1920" height="586" alt="image" src="https://github.com/user-attachments/assets/d7296b1d-a352-42e9-a9f0-834965d982e7" />
+<img width="1906" height="395" alt="image" src="https://github.com/user-attachments/assets/8f5d2afe-b473-43e6-9a30-da62f1c975ed" />
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
 
-## Contributing
+## Key Features
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+* Fully responsive layout for desktop, tablet, and mobile devices
+* Mobile navigation with a hamburger menu
+* Contact form with validation
+* Server-side form processing
+* Message storage in a relational database
+* Email notification sent to the administrator when a message is submitted
 
-## Code of Conduct
+## Backend Experimentation
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+The backend portion of the project was implemented to explore several Laravel concepts:
 
-## Security Vulnerabilities
+* Form request handling
+* Server-side validation
+* Database insertion using Laravel models
+* Email notification workflow
+* Basic MVC structure
+* Routing and controller logic
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+The contact form demonstrates a simple end-to-end flow:
+user input → validation → database storage → administrator notification.
 
-## License
+## Technologies Used
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Frontend:
+
+* HTML
+* CSS
+* JavaScript
+
+Backend:
+
+* Laravel (PHP)
+
+Database:
+
+* MySQL
+
+## Project Purpose
+
+The goal of this project was to practice integrating a responsive frontend interface with backend functionality.
+Particular focus was placed on experimenting with Laravel’s form handling, validation mechanisms, and database interaction.
+
+## Running the Project Locally
+
+1. Clone the repository
+2. Install PHP dependencies
+3. Configure the `.env` file
+4. Run database migrations
+5. Start the development server
+
+## Author
+
+Christos
